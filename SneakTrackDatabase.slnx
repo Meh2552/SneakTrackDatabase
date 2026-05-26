@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SneakTrackDatabase/SneakTrackDatabase.sqlproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
