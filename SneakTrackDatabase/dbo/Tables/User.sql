@@ -4,12 +4,14 @@
     [username]     VARCHAR (20) NOT NULL,
     [password]     VARCHAR (20) NOT NULL,
     [role]         CHAR (5)     DEFAULT ('STAFF') NOT NULL,
-    [date_created] DATE         NULL,
+    [date_created] DATE         DEFAULT (getdate()) NOT NULL,
     [archived]     BIT          DEFAULT ((0)) NOT NULL,
     CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED ([user_id] ASC),
     CONSTRAINT [Check_Role] CHECK ([role]='STAFF' OR [role]='ADMIN'),
     UNIQUE NONCLUSTERED ([username] ASC)
 );
+
+
 
 
 GO
