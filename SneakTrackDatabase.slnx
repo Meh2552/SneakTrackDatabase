@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="SneakTrackDatabase/SneakTrackDatabase.sqlproj">
+  <Project Path="SneakTrackDatabase/SneakTrackDatabase.sqlproj" Id="c06adb0e-64aa-4fbd-aea7-3c33fe92e763">
     <Build />
     <Deploy />
   </Project>
